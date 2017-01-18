@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page xmlns:my="using:Windows.UI.Xaml.Controls.Maps" 
     x:Class="shuttle.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -8,6 +8,6 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <my:MapControl x:Name="map"/>
     </Grid>
 </Page>
