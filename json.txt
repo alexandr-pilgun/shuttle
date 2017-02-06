@@ -1,0 +1,69 @@
+{
+  "timeStamp": 0,
+  "newestAppVersion": 0,
+  "displayData": {
+    "displayName": "my_bus",
+    "displayItems": {
+      "next_target_name": "Belval arrêt Cité des sciences",
+      "passenger_target_departure_time": "11:22",
+      "last_target_name": "Kirchberg Arrêt A. Weicker",
+      "passenger_target_departure_time_type": "By Schedule",
+      "next_target_arrival_time": "09:42",
+      "passenger_target_arrival_time": "09:42",
+      "last_target_arrival_time_real": "10:26",
+      "next_target_arrival_time_type": "Real Time",
+      "passenger_target_arrival_time_type": "Real Time",
+      "last_target_arrival_time_sched": "10:25"
+    }
+  },
+  "vehiclesList": [
+    {
+      "vehicleId": 13,
+      "deviceId": "203001103",
+      "isOnGpsService": true,
+      "plate": "SL3471",
+      "vehicleType": 1,
+      "lastLat": 49.504942,
+      "lastLng": 5.946572,
+      "lastGpsTime": 1484815232000,
+      "lastSpeed": 16.32,
+      "isActive": true,
+      "attachedRideSernum": 185,
+      "nextTargetSernum": 85,
+      "attachedDriverIdFk": 10,
+      "durationSecondsToNextTarget": 69,
+      "durationSecondsToLastTarget": 164,
+      "durationInTrafficSecondsToNextTarget": 72,
+      "durationInTrafficSecondsToLastTarget": 184,
+      "metersToClosestTarget": 173,
+      "closestTargetSernum": 85,
+      "nextTargetSernumOnLastEta": 85,
+      "lastEtaRequestMillis": 1484815170661,
+      "nextTargetIndexInRoute": 3,
+      "scheduledDepartureHourFromFirstTarget": 9,
+      "scheduledDepartureMinuteFromFirstTarget": 20,
+      "scheduledDepartureHourFromNextTarget": 9,
+      "scheduledDepartureMinuteFromNextTarget": 22,
+      "attachedRouteIdFk": "2_1451404159733",
+      "attachedRoute": {
+        "routeId": "2_1451404159733"
+      },
+      "scheduledArrivalHourToNextTarget": 9,
+      "scheduledArrivalMinuteToNextTarget": 22,
+      "scheduledArrivalHourToLastTarget": 10,
+      "scheduledArrivalMinuteToLastTarget": 25,
+      "timeZoneAbvr": "CET",
+      "firstTargetSernum": 84,
+      "closestPoiSernum": 130,
+      "metersToClosestPoi": 1126,
+      "nextTargetName": "Belval arrêt Cité des sciences",
+      "lastTargetName": "Kirchberg Arrêt A. Weicker",
+      "lastTargetIndexInRoute": 7,
+      "operatorSernum": 2,
+      "departureMinuteOfDayFromTargetBeforeLast": 623,
+      "minuteOfDayDepartureFromChosenTargetByTT": 682,
+      "minuteOfDayArrivalToChosenTargetByTT": 682,
+      "minuteOfDayArrivalToLastTargetByTT": 625
+    }
+  ]
+}
