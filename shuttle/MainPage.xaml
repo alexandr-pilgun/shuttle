@@ -8,7 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <my:MapControl x:Name="mapControl">
+        <my:MapControl x:Name="mapControl"
+                       MapServiceToken="2RwBAhwmRQSd0YjagnV3~qfWrHX_g2IF604NRIx5OCA~Ah7LBJ5CMC3s5gaWekqT8_n0OOxNTDwPR0luOrE8M1yvfYGFNJZVMKluL-O-U315">
             
         </my:MapControl>
     </Grid>
